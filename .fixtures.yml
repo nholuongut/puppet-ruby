@@ -1,0 +1,9 @@
+fixtures:
+  repositories:
+    "puppi": "git://github.com/nholuongut/puppi.git"
+    "monitor": "git://github.com/nholuongut/puppet-monitor.git"
+    "firewall": "git://github.com/nholuongut/puppet-firewall.git"
+    "iptables": "git://github.com/nholuongut/puppet-iptables.git"
+  symlinks:
+    "ruby": "#{source_dir}"
+
